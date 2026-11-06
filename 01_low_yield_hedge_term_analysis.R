@@ -1,5 +1,8 @@
 # R ANALYSIS CODE — RADIOLOGY HEDGE TERMS AND TEMPORAL TRENDS
 
+# Create the output directory.
+dir.create("output", showWarnings = FALSE, recursive = TRUE)
+
 # ======================================================================
 # 01 | Load source dataset, demographics and screen radiology reports for hedge terms
 # ======================================================================
