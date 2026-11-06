@@ -1,23 +1,4 @@
 # R ANALYSIS CODE — RADIOLOGY HEDGE TERMS AND TEMPORAL TRENDS
-# Publication-ready paths: no personal directories are included.
-#
-# Run this script with the working directory set to the project root.
-# Rename the original source CSV to source_data.csv and place it in input/ (not uploaded to GitHub).
-# Intermediate and final CSV files are written to output/ (not uploaded).
-# Later analyses read intermediate CSV files from output/.
-#
-# Required folder layout on the computer running the analysis:
-#   project/
-#     analysis.R
-#     input/     (source CSV; not shared)
-#     output/    (generated CSVs; not shared)
-#
-# This setup preserves the original analysis logic while using neutral CSV filenames.
-
-# Create the output directory if it does not already exist.
-dir.create("output", showWarnings = FALSE, recursive = TRUE)
-
-
 
 # ======================================================================
 # 01 | Load source dataset, demographics and screen radiology reports for hedge terms
